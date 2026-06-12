@@ -4,7 +4,7 @@ import requests
 
 def generate_log(data):
     if not isinstance(data, list):
-        raise TypeError("Data must be a list")
+        raise ValueError("Data must be a list")
 
     filename = f"log_{datetime.now().strftime('%Y%m%d')}.txt"
 
