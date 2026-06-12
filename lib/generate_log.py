@@ -13,6 +13,8 @@ def generate_log(data):
 
     print(f"Log written to {filename}")
 
+    return filename
+
 
 
 
